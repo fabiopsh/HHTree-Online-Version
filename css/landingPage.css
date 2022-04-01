@@ -1,0 +1,157 @@
+:root {
+    --main-gradient: linear-gradient(293deg, rgba(103,3,62,1) 0%, rgba(158,0,93,1) 100%);;
+}
+
+@font-face {
+    font-family: akira;
+    src: url(../src/fonts/Akira-Expanded-Demo.otf);
+}
+
+/*--------Navbar--------*/
+.navbar-nav{
+    font-size: large;
+}
+
+.nav-item-active{
+    font-weight: bold;
+}
+
+
+.logo{
+    position: absolute;
+    float: left;
+    left: 15px;
+    top: 10px;
+    max-height: 42px;
+}
+
+.section-title{
+    font-family: akira;
+}
+
+/*--------Buttons--------*/
+.btn{
+    position: relative;
+}
+
+.btn-icon > i{
+    position: absolute;
+    float: left;
+    left: 15px;
+    top: 10px;
+    font-size: x-large;
+}
+
+i{
+    font-size: large;
+}
+
+.btn-client{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links-container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*--------Cards--------*/
+.custom-card{
+    border-radius: 40px;
+    transition: box-shadow .3s;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+
+.custom-card-consigliata{
+    background: var(--main-gradient);
+    color:white;
+    box-shadow: 0 0 21px rgba(199, 0, 144, 0.87) !important;
+}
+
+.custom-card:hover, .custom-card-consigliata:hover{
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.493);
+}
+
+.custom-card-consigliata:hover{
+    box-shadow: 0 0 41px rgb(236, 0, 170) !important;
+}
+
+.custom-card-img{
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    font-family: akira;
+}
+
+.card-price{
+    font-family: akira;
+    font-size: xxx-large;
+    color: #8f0968;
+    padding-right: 20px;
+    margin-bottom: -15px;
+}
+
+.card-month{
+    font-family: akira;
+    font-size: large;
+    color: #8f0968;
+}
+
+.card-text{
+    font-size: large;
+}
+
+.badge-consigliato{
+    font-size: small;
+}
+
+.floating-price{
+    float:right;
+    height:100%;
+}
+
+.header{
+    margin-bottom: 25px;
+}
+
+.form-outline .form-control {
+    min-height: auto;
+    padding: 0.33em 0.75em;
+    background: transparent;
+    transition: all .2s linear;
+}
+
+.background-gradient{
+    background: var(--main-gradient);
+}
+
+.border-violet{
+    border: 10px solid #8f0968;
+}
+
+.border-white{
+    border: 10px solid #ffffff;
+}
+
+/*--------Hero--------*/
+.titolo-homepage{
+    font-family: akira;
+}
+
+.hero{
+    height: 180px;
+}
+
+.home-subtitle{
+    font-weight: lighter;
+}
+
+.gradiente-homepage{
+    background: var(--main-gradient)
+}
