@@ -127,7 +127,7 @@ i{
 .blur{
     backdrop-filter: blur(10px);
     background-color: #ffffff4f;
-    border-radius: 4%;
+    border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.486);
     
 }
