@@ -13,8 +13,7 @@ a{
 
 /*Whole Background*/
 body {
-    background-color: lightblue;
-    background-image: url("../img/mountains.jpg");
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

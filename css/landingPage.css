@@ -91,7 +91,7 @@ i{
 
 .card-price{
     font-family: akira;
-    font-size: xxx-large;
+    font-size: 50px;
     color: #8f0968;
     padding-right: 20px;
     margin-bottom: -15px;
@@ -154,4 +154,10 @@ i{
 
 .gradiente-homepage{
     background: var(--main-gradient)
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+        margin-top: 40px;
+    }
 }
