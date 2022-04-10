@@ -1,4 +1,13 @@
-RewriteEngine on 
+# mod_rewrite starts here
+RewriteEngine on
+# Non si applica sulle cartelle, signifivca che se la cartella esise nel server non cambia nulla
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
+
+#Se il file non esiste non far partire lo script
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Creo le regole dell'access
+# Ora mostriamo la pagina con l'estensione .html
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+
